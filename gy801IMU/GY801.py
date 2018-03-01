@@ -523,9 +523,9 @@ if __name__ == "__main__":
 	compass = sensors.compass
     
 	print ("\033[1;32;40mHMC5883L on address 0x%x:" % (HMC5883L_ADDRESS))
-	print ("   Xangle = %.3f deg" % ( compass.getX() ))
-	print ("   Yangle = %.3f deg" % ( compass.getY() ))
-	print ("   Zangle = %.3f deg" % ( compass.getZ() ))
+	print ("   X = %.3f " % ( compass.getX() ))
+	print ("   Y = %.3f " % ( compass.getY() ))
+	print ("   Z = %.3f " % ( compass.getZ() ))
 	print ("   Angle = %.3f deg" % ( compass.getAngle() ))
 
 	barometer = sensors.baro
