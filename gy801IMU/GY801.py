@@ -308,7 +308,7 @@ class L3G4200D(IMU):
 
 	def getRawZ(self):
 		self.Zraw = self.read_word_2c(L3G4200D_OUT_Z_L)
-		return self.rawZ
+		return self.Zraw
 
 	def getX(self,plf = 1.0):
 		self.X = ( self.getRawX() * self.gain ) * plf + (1.0 - plf) * self.X
