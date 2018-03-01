@@ -274,7 +274,7 @@ class L3G4200D(IMU):
 		#Class Properties
 		self.Xraw = 0.0
 		self.Yraw = 0.0
-		self.rawZ = 0.0
+		self.Zraw = 0.0
 		self.X = 0.0
 		self.Y = 0.0
 		self.Z = 0.0
